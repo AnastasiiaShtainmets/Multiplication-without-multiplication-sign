@@ -28,7 +28,7 @@ class MainTest {
         assertEquals(15236*3975746, Main.multiplication(15236,3975746));
     }
     @Test
-    void main6() {
-        assertEquals(0*0, Main.multiplication(0,0));
-    }
+    void main6() {assertEquals(0*0, Main.multiplication(0,0));}
+    @Test
+    void main7() {assertEquals((-2)*3, Main.multiplication((-2),3));}
 }
